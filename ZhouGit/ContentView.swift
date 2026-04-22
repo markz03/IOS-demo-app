@@ -15,7 +15,11 @@ struct ContentView: View {
                 .foregroundStyle(.tint)
             Text("Fun with Git.")
             Image(systemName: "house")
+                .imageScale(.large)
+                .foregroundStyle(.tint)
             Image(systemName: "plane")
+                .imageScale(.large)
+                .foregroundStyle(.tint)
             Text("PUSHING NEW CHANGES SOOOOOOOOOOON")
         }
         .padding()
