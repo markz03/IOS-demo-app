@@ -10,6 +10,10 @@ import SwiftUI
 struct NewView: View {
     var body: some View {
         Text("this is a new view")
+        Image(systemName: "bolt")
+        Image(systemName: "eraser")
+        Text("erase")
+        
     }
 }
 
